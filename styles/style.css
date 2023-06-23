@@ -41,7 +41,7 @@ body, html {
     grid-template-columns: 1fr 1fr;
     margin: 15vh auto;
     width: 80%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .text__content {
@@ -70,6 +70,7 @@ body, html {
     grid-template-areas: 
         "statsHeadings statsHeadings statsHeadings"
         "statsParagraph statsParagraph statsParagraph";
+    grid-column-gap: 3%;
 }
 
 .text__content--stats .headings {
@@ -96,7 +97,7 @@ body, html {
 .picture__container {
     width: 100%;
     overflow: hidden;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 10px 10px 0;
     background-color: var(--soft-violet);
 }
 
@@ -140,7 +141,6 @@ body, html {
 
     .picture__container {
         grid-area: picture;
-        border-radius: 15px 15px 0 0;
     }
 
     .text__content {
